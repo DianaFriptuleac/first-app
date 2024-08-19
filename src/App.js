@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import NewComponents from './components/NewComponents';//il nuovo componente
 //il componentte react
 //un componente react puo essere una funzione che ritorna una sistassi simile ad HTML che si chiama JSX
 //differenze tra HTML e JSX:
@@ -13,6 +14,7 @@ function App() {   //i componenti react hanno la funzione con la lettera maiusco
       <header className="App-header">
         
         <img src={logo} className="App-logo" alt="logo" />
+        <NewComponents></NewComponents>  
         <p>
           Edit <code>src/App.js</code> and save to reload. {myName}  
         </p>
